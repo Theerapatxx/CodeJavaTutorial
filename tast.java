@@ -1,14 +1,16 @@
 public class tast {
     public static void main(String[] args) {
-        double x = 2.5;
-        double y = -1.5;
-        int n = 4;
+    int x = 3;
+    int y = 3;
+    if (x > 2) {
+        if (y > 2) {
+        int z = x + y;
+        System.out.println("z is " + z);
+        }
+    }
+else
+    System.out.println("x is " + x);
 
-        // คำนวณค่า
-        double result = x + n * y - (x + n) * y;
-
-        // แสดงผลลัพธ์
-        System.out.println("Result: " + result);
     }
 
     
