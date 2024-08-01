@@ -6,7 +6,6 @@ public class ResultTo100 {
             sum += number; 
             System.out.println(" "+number);
             number++; 
-            
         }
         System.out.println("The sum of numbers from 1 to 100 is: " + sum);
     }
